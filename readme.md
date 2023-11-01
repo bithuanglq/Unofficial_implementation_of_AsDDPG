@@ -28,7 +28,7 @@ We employ the pre-trained DDPG model, denoted as **B**, located at ./model/Good_
 
 Comparing these figures, we can see that in the AsDDPG file, __an external controller can indeed shorten the time of convergence__ to achieve the best total reward. However, in the limited 1000 episodes, both the policy network utilization rate curve and total reward curve show significant fluctuations. Additionally, through testing, we found that the performance (total reward collected in one episode) of the trained **A** model __falls short__ of **B**.
 
-That is:
+__That is:__
 1. AsDDPG shorten the time of DDPG's convergence;
 2. In the limited episodes, DDPG's performance is lower than external controller.
 
