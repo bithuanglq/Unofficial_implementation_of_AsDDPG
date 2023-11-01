@@ -30,7 +30,7 @@ Comparing these figures, we can see that in the AsDDPG file, __an external contr
 
 __That is:__
 1. AsDDPG shorten the time of DDPG's convergence;
-2. In the limited episodes, DDPG's performance is lower than external controller.
+2. In the limited episodes, DDPG is not converged, and DDPG's performance is lower than external controller.
 
 
 # Run
