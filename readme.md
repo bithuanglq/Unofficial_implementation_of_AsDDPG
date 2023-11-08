@@ -18,12 +18,12 @@ We employ the pre-trained DDPG model, denoted as **B**, located at ./model/Good_
 
  The result of AsDDPG for pendulum controlling:
 <p align="center">
-  <img src="figures/AsDDPG_result.png">
+  <img src="figures/AsDDPG_result.png", width="40%", height="40%">
 </p>
 
  The result of DDPG for pendulum controlling:
 <p align="center">
-  <img src="figures/DDPG_result.png">
+  <img src="figures/DDPG_result.png", width="40%", height="40%">
 </p>
 
 Comparing these figures, we can see that in the AsDDPG file, __an external controller can indeed shorten the time of convergence__ to achieve the best total reward. However, in the limited 1000 episodes, both the policy network utilization rate curve and total reward curve show significant fluctuations. Additionally, through testing, we found that the performance (total reward collected in one episode) of the trained **A** model __falls short__ of **B**.
