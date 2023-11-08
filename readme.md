@@ -1,8 +1,8 @@
 # Requirements
-Conda visual env
-Python 3.10.2
-Tensorflow 2.14.0
-tensorlayer 2.2.5
+Conda visual env  
+Python 3.10.2  
+Tensorflow 2.14.0  
+tensorlayer 2.2.5  
 
 Besides, we need to replace file _/path/to/your/anaconda3/envs/tf_RLcode/lib/python3.10/site-packages/tensorlayer/files/utils.py_ 
 with _tf_utils.py_ in the current directory. 
