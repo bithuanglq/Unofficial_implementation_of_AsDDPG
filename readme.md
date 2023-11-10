@@ -1,4 +1,4 @@
-# Requirements
+## Requirements
 Conda visual env  
 Python 3.10.2  
 Tensorflow 2.14.0  
@@ -11,7 +11,7 @@ Then the weights of models can be saved successfully.
 
 
 
- # An unofficial implementation of [AsDDPG](https://ieeexplore.ieee.org/abstract/document/8461203)
+ ## An unofficial implementation of [AsDDPG](https://ieeexplore.ieee.org/abstract/document/8461203)
 This repository presents a comparative analysis between the AsDDPG method and the conventional DDPG network in the task of maintaining the pendulum in an upright position.
 
 We employ the pre-trained DDPG model, denoted as **B**, located at ./model/Good_ddpg_xxx, as an external controller to expedite the convergence of our primary DDPG model denoted as **A**. The latter requires training with the assistance of another pre-trained DDPG model **B**.
@@ -33,7 +33,7 @@ __That is:__
 2. In the limited episodes, DDPG is not converged, and DDPG's performance is lower than external controller **B**.
 
 
-# Run
+## Run
 First, we train the DDPG as baseline, and take the trained model as **A**, train and test(after modify the /path/to/your/trained/model in fuction *load_ckpt*)
 ```
 python DDPG_pendulum.py
